@@ -1,0 +1,95 @@
+.body-class {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+
+.header-class {
+    background-color: #ffb6b9;
+    color: #4a4a4a;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-class {
+    background-color: #ffdac1;
+    padding: 10px;
+    text-align: center;
+}
+.nav-class a {
+    color: #4a4a4a;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: normal;
+}
+.nav-class a:hover, .nav-class .active {
+    font-weight: bold;
+}
+
+.title-class {
+    color: #4a4a4a;
+}
+.section-title-class {
+    color: #a8e6cf;
+}
+
+.text-class {
+    color: #4a4a4a; 
+    line-height: 1.6;
+}
+
+.image-class {
+    border: 5px solid #a8e6cf; 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.form-class {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: auto;
+}
+.input-class {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button-class {
+    background-color: #a8e6cf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button-class:hover {
+    background-color: #85dcb8;
+}
+
+.footer-class {
+    background-color: #ffb6b9;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .form-class {
+        width: 90%;
+    }
+    .nav-class a {
+        display: block;
+        margin: 5px 0;
+    }
+}
